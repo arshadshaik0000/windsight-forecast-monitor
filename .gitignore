@@ -1,0 +1,43 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# DuckDB databases
+*.duckdb
+*.duckdb.wal
+
+# Data files
+data/raw/
+data/parquet/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+*.log
+
+# Environment
+.env
+.env.local
+.env.production
